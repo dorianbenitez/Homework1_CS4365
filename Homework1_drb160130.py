@@ -343,7 +343,7 @@ def display():
     # Print the initial input state of the board
     print(initial_state[0], initial_state[1], initial_state[2], "  (Initial input state)")
     print(initial_state[3], initial_state[4], initial_state[5])
-    print(initial_state[6], initial_state[7], initial_state[8], '\n')
+    print(initial_state[6], initial_state[7], initial_state[8], "\n")
     print("Number of moves: " + str(len(moves)))
     print("Number of states enqueued: " + str(enqueued_states))
 
